@@ -34,7 +34,7 @@ counter = 1
 while counter <= 20:	
 	print(counter)
 
-	# Search for all the desired info in html source code
+	# Locate elements based on their class name
 	recs = driver.find_elements_by_class_name('texts')
 	score_recs = driver.find_elements_by_class_name('score-cont')
 	food_categs = driver.find_elements_by_class_name('v_cat')
