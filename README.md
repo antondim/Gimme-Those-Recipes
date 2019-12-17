@@ -32,3 +32,10 @@ sudo pip install beautifulsoup4
 sudo pip install selenium
 ```
   Selenium requires a driver to interface with the chosen browser. Firefox, for example, requires geckodriver, which needs to        be [installed](https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu) beforehands.
+  
+* pandas :
+
+```
+sudo pip install pandas
+```
+
