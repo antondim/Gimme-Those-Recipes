@@ -47,7 +47,9 @@ What's interesting here is, that even though we "move" to the next page (press t
 
 **But [why](https://stackoverflow.com/questions/2130239/what-exactly-is-ajax-request-is-it-different-from-servlet-request)?**
 
-It seems that when "Load more button" is pressed, an [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) request is being sent to the website's server. As a result, the website is dynamically updated, without full page refresh
+It seems that when "Load more button" is pressed, an [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) request is being sent to the website's server. As a result, the website is dynamically updated in the background, without full page refresh.
+
+**Solution**
 
 
 
