@@ -1,5 +1,5 @@
 # Web-Scraping
-This project, is an attempt to scrape free access (as stated in robots.txt) text data from an online cooking website, in order to produce statistics with the use of Python language.
+This Python project, is an attempt to scrape free access (as stated in robots.txt) text data from an online cooking website, in order to produce statistics.
 
 ## Getting Started
 Scraping, is a way of collecting text data from websites, taking advantage of their html source code.
