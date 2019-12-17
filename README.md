@@ -39,4 +39,11 @@ sudo pip install pandas
 ```
 ## Challenges faced in the coding procedure
 
+In the initial commit (**scrape.py**), we extract the desired text data, with the use of BeautifulSoup "class" member functions.
+
+For each page, we dive into the html source code and search for the part that contains the necessary information for each cooking recipe (i.e recipe title, food category of recipe, readers rating for each recipe). When page scraping procedure ends, we move to next page's "url" to scrape more recipes. 
+
+
+
+
 
