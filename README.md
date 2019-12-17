@@ -41,7 +41,9 @@ sudo pip install pandas
 
 In the initial commit (**scrape.py**), we extract the desired text data, with the use of BeautifulSoup "class" member functions.
 
-For each page, we dive into the html source code and search for the part that contains the necessary information for each cooking recipe (i.e recipe title, food category of recipe, readers rating for each recipe). When page scraping procedure ends, we move to next page's "url" to scrape more recipes. 
+For each page, we dive into the html source code and search for the part that contains the desired information of the cooking recipes (i.e recipe title, food category of recipe, readers rating for each recipe). When scraping procedure ends, we move to next page's "url" to scrape more recipes.
+
+What's interesting here is, that even though we "move" to the next page (press the "Load more data" button), the "URL" in the browser bar remains unchanged. As a result, we repeatedly scrape the same recipes.
 
 
 
