@@ -37,9 +37,9 @@ sudo pip install selenium
 ```
 sudo pip install pandas
 ```
-## Challenges faced in the coding procedure
+## Challenges of the procedure
 
-In the initial commit (**scrape.py**), we extract the desired text data, with the use of BeautifulSoup "class" member functions.
+In the initial commit file (**scrape.py**), we extract the desired text data, with the use of BeautifulSoup "class" member functions.
 
 For each page, we dive into the html source code and search for the part that contains the desired information of the cooking recipes (i.e recipe title, food category of recipe, readers rating for each recipe). When scraping procedure ends, we move to next page's "url" to scrape more recipes.
 
@@ -51,7 +51,7 @@ It seems that when "Load more button" is pressed, an [AJAX](https://en.wikipedia
 
 **Solution**
 
-In order to solve this, we perform actions using JavaScript through Python Selenium WebDriver. 
+To solve this, in our final Python script (**scrape_v2.py**), we extract the desired information using **JavaScript** through Python Selenium WebDriver. 
 
 ## Statistics
 
