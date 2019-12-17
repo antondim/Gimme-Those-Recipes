@@ -53,7 +53,7 @@ It seems that when "Load more recipes" button is pressed, an [AJAX](https://en.w
 
 To solve this, in our final Python script (**scrape_v2.py**), we extract the desired information using **JavaScript** through Python Selenium WebDriver. 
 
-## Statistics
+## Statistics & Plots
 
 
 
