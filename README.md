@@ -45,6 +45,8 @@ For each page, we dive into the html source code and search for the part that co
 
 What's interesting here is, that even though we "move" to the next page (press the "Load more data" button), the "URL" in the browser bar remains unchanged. As a result, we repeatedly scrape the same recipes.
 
+**But why?**
+
 
 
 
