@@ -45,7 +45,9 @@ For each page, we dive into the html source code and search for the part that co
 
 What's interesting here is, that even though we "move" to the next page (press the "Load more data" button), the "URL" in the browser bar remains unchanged. As a result, we repeatedly scrape the same recipes.
 
-**But why?**
+**But [why](https://stackoverflow.com/questions/2130239/what-exactly-is-ajax-request-is-it-different-from-servlet-request)?**
+
+It seems that when "Load more button" is pressed, an [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) request is being sent to the website's server. As a result, the website is dynamically updated, without full page refresh
 
 
 
