@@ -1,5 +1,5 @@
 # Web-Scraping
-This Python project, is an attempt to scrape free access (as stated in [robots.txt](https://en.wikipedia.org/wiki/Robots_exclusion_standard)) text data from an online cooking website, in order to produce statistics based on the extracted data, which we inititally parse into a [csv file](https://en.wikipedia.org/wiki/Comma-separated_values).
+This Python project, is an attempt to scrape free access (as stated in [robots.txt](https://en.wikipedia.org/wiki/Robots_exclusion_standard)) text data from an online cooking website, for possible statistical analysis of the extracted data, which we inititally parse into a [csv file](https://en.wikipedia.org/wiki/Comma-separated_values).
 
 ## Getting Started
 Scraping, is a way of collecting text data from websites, taking advantage of their html source code.
@@ -52,10 +52,6 @@ It seems that when "Load more recipes" button is pressed, an [AJAX](https://en.w
 **Solution**
 
 To solve this, in our final Python script (**scrape_v2.py**), we extract the desired information using **JavaScript** through Python Selenium WebDriver. 
-
-## Statistics & Plots
-
-
 
 
 
