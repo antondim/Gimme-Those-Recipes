@@ -4,7 +4,6 @@ This Python project, is an attempt to scrape free access (as stated in [robots.t
 ## Getting Started
 Scraping, is a way of collecting text data from websites, taking advantage of their html source code.
 
-Python provides such capable libraries.
 ### Prerequisites
 In this project, we make use of the following libraries:
 
@@ -38,6 +37,6 @@ sudo pip install selenium
 ```
 sudo pip install pandas
 ```
-## Scraping approaches
+## Challenges faced in the coding procedure
 
 
