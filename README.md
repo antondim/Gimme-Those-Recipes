@@ -16,7 +16,7 @@ In this project, we make use of the following libraries:
 
 ### Installing
 
-* BeautifulSoup :
+**1) BeautifulSoup** :
 ```
 sudo apt-get install python-bs4
 ```
@@ -26,16 +26,18 @@ sudo pip install beautifulsoup4
 ```
 
 
-* Selenium :
+**2) Selenium** :
 
 ```
 sudo pip install selenium
 ```
   Selenium requires a driver to interface with the chosen browser. Firefox, for example, requires geckodriver, which needs to        be [installed](https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu) beforehands.
   
-* pandas :
+**3) pandas** :
 
 ```
 sudo pip install pandas
 ```
+## Scraping approaches
+
 
