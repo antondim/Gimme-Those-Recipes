@@ -13,7 +13,7 @@ import time
 display = Display(visible=0, size=(800, 600))
 display.start()
 
-# select webdriver
+# select web driver
 driver = webdriver.Firefox(executable_path=r'/usr/bin/geckodriver')
 
 # 1. open the desired URL
@@ -51,7 +51,7 @@ while counter <= 20:
 																 columns = ['Recipe title','Food categories','Ratings'])
 	data_frame.to_csv('~/Projects/scrape/syntages.csv', index=False, encoding='utf-8')
 
-	time.sleep(2) # sleep time (choice)
+	time.sleep(2) # sleep time (variable)
 
 	# click "Show more" button if it exists
 	if (driver.find_element_by_link_text("Περισσότερες συνταγές")):
@@ -64,11 +64,13 @@ while counter <= 20:
 #remove duplicates from csv file
 df = pd.read_csv('~/Projects/scrape/syntages.csv')
 df.drop_duplicates(subset=None, inplace=True)
+
 #replace NaN values with zeros
 df=df.fillna(0)
+
 #write to new csv file
 df.to_csv('~/Projects/scrape/syntages_non_duplicates.csv', index=False, encoding='utf-8')
 
-# close "shadow display" & internet page
+# close "shadow display" & web driver
 driver.quit()
 display.stop()
